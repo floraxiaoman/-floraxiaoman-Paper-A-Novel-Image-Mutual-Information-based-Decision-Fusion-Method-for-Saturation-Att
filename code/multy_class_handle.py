@@ -358,7 +358,7 @@ class multy_class_handle():
 
 
     def _evaluat_(self, y_true, y_pred,idx):
-        print "-------DS-肖曼-----DS-肖曼-----DS-肖曼-----DS-肖曼-----DS-肖曼-----DS-肖曼----"
+       
         print('Accuracy------all‘ +''+: ' + str(metrics.accuracy_score(y_true, y_pred)))
         print('------Weighted------')
         print('Weighted precision', precision_score(y_true, y_pred, average='weighted'))
